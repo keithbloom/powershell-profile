@@ -16,8 +16,8 @@ function Start-Project {
 }
 
 function services { Start-Project -hash @{Path='APMG.Services.WCF';Solution='.\APMG.Services.WCF.sln'}}
-function portal { Start-Project -hash @{Path='APMG.Portal.WCF';Solution='.\APMG.Portal.WCF.sln'}}
-function admin { Start-Project -hash @{Path='APMG.Admn.WCF';Solution='.\APMG.Admin.WCF.sln'}}
+function portal { Start-Project -hash @{Path='APMG.Portal';Solution='.\APMG.Portal.sln'}}
+function admin { Start-Project -hash @{Path='APMG.Admin';Solution='.\APMG.Admin.sln'}}
 function booking { Start-Project -hash @{Path='APMG.Services.WCF\APMG.Services.WCF.Booking';Solution='.\APMG.Services.WCF.Booking.sln'}}
 
 function  work { Set-Location-Dev $work }
