@@ -15,7 +15,7 @@ function Start-Project {
 	cd $work\'LocalBuild'
 }
 
-function services { Start-Project -hash @{Path='APMG.Services';Solution='.\APMG.Services.WCF.sln'}}
+function services { Start-Project -hash @{Path='APMG.Services';Solution='.\APMG.Services.sln'}}
 function portal { Start-Project -hash @{Path='APMG.Portal';Solution='.\APMG.Portal.sln'}}
 function admin { Start-Project -hash @{Path='APMG.Admin';Solution='.\APMG.Admin.sln'}}
 function booking { Start-Project -hash @{Path='APMG.Services\APMG.Services.WCF.Booking';Solution='.\APMG.Services.WCF.Booking.sln'}}
