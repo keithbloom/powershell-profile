@@ -24,3 +24,4 @@ function booking { Start-Project -hash @{Path='APMG.Services\APMG.Services.WCF.B
 function  work { Set-Location-Dev $work }
 function  dev { Set-Location-Dev $dev }
 function infomoney { Set-Location-Dev $moneyPath }
+function wcfclient { & "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\WcfTestClient.exe" }
