@@ -1,6 +1,4 @@
-$dev = 'E:\Code'
-$work = 'C:\APMG\Marlin'
-$moneyPath = $dev + '\dot-net\info-money'
+$work = 'C:\Dev'
 $services = @{Path='APMG.Services.WCF';Solution='.\APMG.Services.WCF.sln'}
 $portal = 'APMG.Portal.sln'
 $admin = 'APMG.Admin.sln'
@@ -23,5 +21,5 @@ function booking { Start-Project -hash @{Path='APMG.Services\APMG.Services.WCF.B
 
 function  work { Set-Location-Dev $work }
 function  dev { Set-Location-Dev $dev }
-function infomoney { Set-Location-Dev $moneyPath }
+
 function wcfclient { & "C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\WcfTestClient.exe" }
