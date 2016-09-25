@@ -15,12 +15,14 @@ if ((which cinst) -eq $null) {
 }
 
 # system and cli
-#cinst curl #`curl` comes with GH4W
+cinst curl
+cinst Msysgit
 cinst nuget.commandline
 cinst webpi
 cinst wget
 cinst wput
 cinst conemu
+cinst putty.install
 
 # browsers
 cinst GoogleChrome
@@ -28,13 +30,15 @@ cinst Firefox
 
 # dev tools and frameworks
 cinst atom
-cinst GitHubForWindows
 cinst Fiddler4
 cinst node
 cinst npm
 cinst vim
 cinst winmerge
+cinst notepadplusplus
 
+# apps
+cinst Paint.Net
 
 ### Visual Studio Plugins
 if (which Install-VSExtension) {
