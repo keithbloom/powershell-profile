@@ -1,0 +1,7 @@
+au GUIEnter * simalt ~x
+set guifont=Source_Code_Pro_Semibold:h12
+set guioptions-=m
+set guioptions-=r
+set guioptions-=T
+
+colorscheme solarized

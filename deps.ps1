@@ -20,6 +20,7 @@ cinst nuget.commandline
 cinst webpi
 cinst wget
 cinst wput
+cinst conemu
 
 # browsers
 cinst GoogleChrome
